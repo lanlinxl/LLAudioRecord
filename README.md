@@ -1,4 +1,3 @@
-# learning
-leetcode Learning algorithm
-
-学习数据结构及算法的记录demon
+#LLAudioRecord
+1.0 
+使用lame录制音频，添加背景音乐
