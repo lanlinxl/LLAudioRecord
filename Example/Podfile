@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LLAudioRecord_Example' do
+  pod 'LLAudioRecord', :path => '../'
+
+  target 'LLAudioRecord_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
