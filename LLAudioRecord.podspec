@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LLAudioRecord' #存储库名称
   s.version          = '0.1.0' #版本号，与tag值一致
-  s.summary          = 'A short description of LLAudioRecord.' #简介
+  s.summary          = 'LLAudioRecord' #简介
   s.description      = <<-DESC  #描述
 TODO: Add long description of the pod here.
                        DESC

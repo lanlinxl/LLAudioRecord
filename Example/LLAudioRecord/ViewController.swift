@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import LLAudioRecord
 
-class ViewController: UIViewController {
-
+class ViewController : UIViewController {
+    
+    var backgroundUrl : URL?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let audioEngine : SFAudioRecord = SFAudioRecord()
+        audioEngine.loadBackgroundMusic(with: backgroundUrl)
     }
 
     override func didReceiveMemoryWarning() {

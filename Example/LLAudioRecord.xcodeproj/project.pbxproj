@@ -24,16 +24,12 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		612305D26B2B4ED673ACABEB /* Pods-LLAudioRecord_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAudioRecord_Example.release.xcconfig"; path = "Target Support Files/Pods-LLAudioRecord_Example/Pods-LLAudioRecord_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7A78B6898B4C968E30DDE44B /* Pods-LLAudioRecord_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAudioRecord_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLAudioRecord_Tests/Pods-LLAudioRecord_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88A02298BDEED484A236998B /* Pods-LLAudioRecord_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAudioRecord_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLAudioRecord_Example/Pods-LLAudioRecord_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA53905C7B8F4EEA43B59AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E39FC786F096FB74D30ED0C7 /* Pods-LLAudioRecord_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAudioRecord_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLAudioRecord_Tests/Pods-LLAudioRecord_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1259B24683414A5A86A1CB /* Pods_LLAudioRecord_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAudioRecord_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33F2756F1BD65388DEC2BD6 /* Pods_LLAudioRecord_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAudioRecord_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB844D81E88CF22ADE64E076 /* LLAudioRecord.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLAudioRecord.podspec; path = ../LLAudioRecord.podspec; sourceTree = "<group>"; };
+		FB844D81E88CF22ADE64E076 /* LLAudioRecord.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLAudioRecord.podspec; path = ../LLAudioRecord.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +49,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for LLAudioRecord */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				B24402D89E967B734FB1DD82 /* Pods */,
 				937008CF1F91ECB5964EACB1 /* Frameworks */,
@@ -90,23 +85,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +109,6 @@
 			children = (
 				88A02298BDEED484A236998B /* Pods-LLAudioRecord_Example.debug.xcconfig */,
 				612305D26B2B4ED673ACABEB /* Pods-LLAudioRecord_Example.release.xcconfig */,
-				E39FC786F096FB74D30ED0C7 /* Pods-LLAudioRecord_Tests.debug.xcconfig */,
-				7A78B6898B4C968E30DDE44B /* Pods-LLAudioRecord_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
