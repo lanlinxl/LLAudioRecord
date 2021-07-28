@@ -8,17 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLAudioRecord' #存储库名称
-  s.version          = '0.1.0' #版本号，与tag值一致
-  s.summary          = 'LLAudioRecord' #简介
+  s.version          = '1.0.0' #版本号，与tag值一致
+  s.summary          = 'Add background music to the recording'    #组件描述
   s.description      = <<-DESC  #描述
+
+
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/yizhixiafancai/LLAudioRecord' #项目主页，不是git地址
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' } #开源协议
-  s.author           = { 'lanlin' => 'yizhixiafancai' } #作者
-  s.source           = { :git => 'https://github.com/yizhixiafancai/LLAudioRecord.git', :tag => s.version.to_s }
+  s.author           = { 'lanlin' => 'lanlin0806@icloud.com' } #作者
+  s.source           = { :git => 'https://github.com/yizhixiafancai/LLAudioRecord.git', :tag => s.version.to_s } #更换为github的远程仓库索引
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
