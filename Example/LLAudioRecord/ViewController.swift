@@ -15,8 +15,8 @@ class ViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let audioEngine : SFAudioRecord = SFAudioRecord()
-        audioEngine.loadBackgroundMusic(with: backgroundUrl)
+//         let audioEngine : SFAudioRecord = SFAudioRecord()
+//         audioEngine.loadBackgroundMusic(with: backgroundUrl)
     }
 
     override func didReceiveMemoryWarning() {
